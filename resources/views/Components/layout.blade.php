@@ -14,9 +14,9 @@
     <div class="container">
 
         <nav class="navbar">
-            <a class="nav-link btn btn-secondary px-3 py-2" href="/">Home</a>
-            <a class="nav-link btn btn-secondary px-3 py-2" href="/about">About</a>
-            <a class="nav-link btn btn-secondary px-3 py-2" href="/contacts">Contacts</a>
+            <a class="nav-link btn btn-secondary px-3 py-2" href="{{ route('home') }}">Home</a>
+            <a class="nav-link btn btn-secondary px-3 py-2" href="{{ route('about') }}">About</a>
+            <a class="nav-link btn btn-secondary px-3 py-2" href="{{ route('contacts') }}">Contacts</a>
         </nav>
         <hr>
         <div class="row my-5">
